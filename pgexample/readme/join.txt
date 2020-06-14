@@ -1,0 +1,1 @@
+select tbllogin.login_username,tbllogin.login_name,tbllogin.login_surname,tbllogin.login_email,tblorginfo.org_name, tbllogin.login_status from tbllogin , tblorginfo where tbllogin.org_id = tblorginfo.org_id;
