@@ -32,12 +32,19 @@ $html->sysMainMenu ();
 <div data-options="region:'center',title:'หน้าหลัก'">
     <div class="easyui-tabs" data-options="fit:true,border:false,plain:true">
         <div title="" style="padding:5px">
+		
+		
+	<!--- combo --->	
 	<input id="cc" class="easyui-combobox" name="txtexample" label="โปรดเลือก" required="true" size="50"
 	data-options="editable:false,valueField:'org_id',textField:'org_name',url:'exam.combo.data.php'">
 	</div>
 
+	<!--- end combo ---->
+	    
     </div>
 </div>
+
+
 <script type="text/javascript">
 $('#cc').combobox({
 	filter: function(q, row){
