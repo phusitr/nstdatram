@@ -4,7 +4,7 @@
  *
  * Long description for file (if any)...
  *
- * PHP version 5
+ * PHP version 7.xx
  *
  * LICENSE: This source file is subject to version 3.01 of the PHP license
  * that is available through the world-wide-web at the following URI:
@@ -13,9 +13,9 @@
  * send a note to license@php.net so we can mail you a copy immediately.
  *
  * @name       config.inc.php [Main configuration file]
- * @category   thnetstat 1.0
+ * @category   nstdatram
  * @author     Phusit Roongroj <phusit@nectec.or.th>
- * @copyright  2014
+ * @copyright  2020
  * @license    http://www.php.net/license/3_01.txt  PHP License 3.01
  * @since      File available since Release 1.0.0
  */
