@@ -46,12 +46,14 @@ $html->sysMainMenu ();
 
 
 <script type="text/javascript">
+// script for combo 
 $('#cc').combobox({
 	filter: function(q, row){
 		var opts = $(this).combobox('options');
 		return row[opts.textField].indexOf(q) == 0;
 	}
 });
+// end script for combo
 </script>
 
 <?php
