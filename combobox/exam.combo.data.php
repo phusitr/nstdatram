@@ -36,7 +36,7 @@ if ($db->connect ( $config ))
 		/* Check data in system database */
 	if ( $db->numrows ($rs )) {
 		$i = 0;
-		$resule = array ();
+		$result = array ();
 		while ( $i < $db->numrows($rs)) {
 		      $result[$i] = $db->fetchobject ( $rs );
 		      $i++;
