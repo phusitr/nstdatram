@@ -20,10 +20,10 @@
  * @since      File available since Release 1.0.0
  */
 
-$config['server']  = "203.185.67.58";
+$config['server']  = "";
 $config['database'] = "xsense_test_database";
 $config['username'] = "redcat";
-$config['password'] = "tram98765";
+$config['password'] = "";
 
 ?>
 
